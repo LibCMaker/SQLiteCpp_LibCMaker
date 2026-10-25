@@ -55,7 +55,7 @@ if(SQLITE_ENABLE_ICU)
 endif()
 
 list(APPEND CMAKE_PREFIX_PATH ${LibCMaker_LIB_DIR}/SQLiteCpp_LibCMaker/cmake)
-find_package(SQLiteCpp REQUIRED NO_PACKAGE_ROOT_PATH)
+find_package(SQLiteCpp REQUIRED CONFIG)
 
 
 #-----------------------------------------------------------------------
